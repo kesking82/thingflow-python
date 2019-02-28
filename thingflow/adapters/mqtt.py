@@ -136,7 +136,7 @@ class MQTTReader(OutputThing, EventLoopOutputThingMixin):
         self.host = host
         self.port = port
         self.client_id = client_id
-        self.client_username = client_id
+        self.client_username = client_username
         self.client_password = client_password
         self.topics = topics
 
